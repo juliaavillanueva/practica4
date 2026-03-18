@@ -7,14 +7,14 @@
 /* ESTILO GENERAL DEL BODY */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f7fb;
+    background-color: rgb(224, 125, 216);
     color: #222;
     line-height: 1.6;
 }
 
 /* CABECERA */
 header {
-    background-color: #1e3a5f;
+    background-color: rgb(40, 35, 113);
     color: white;
     padding: 20px;
     text-align: center;
@@ -22,20 +22,20 @@ header {
 
 /* MENÚ DE NAVEGACIÓN */
 nav {
-    background-color: #16324a;
+    background-color: rgb(196, 230, 59);
     padding: 12px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: rgb(0, 0, 0);;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffd166;
+    color: rgb(224, 125, 216);
 }
 
 /* CONTENEDOR GENERAL */
@@ -51,7 +51,7 @@ section {
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgb(224, 125, 216);
 }
 
 /* TÍTULOS */
@@ -78,11 +78,11 @@ img {
 }
 
 .card {
-    background-color: #eef3f8;
+    background-color: white;
     border-radius: 10px;
     padding: 15px;
     flex: 1 1 300px;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 5px rgba(227, 12, 12, 0.1);
 }
 
 .card h3 {
@@ -101,7 +101,7 @@ table, th, td {
 }
 
 th {
-    background-color: #1e3a5f;
+    background-color: rgb(40, 35, 113);
     color: white;
 }
 
@@ -135,7 +135,7 @@ textarea {
 
 /* BOTONES */
 button {
-    background-color: #1e3a5f;
+    background-color: rgb(40, 35, 113);
     color: white;
     border: none;
     padding: 12px;
@@ -145,12 +145,12 @@ button {
 }
 
 button:hover {
-    background-color: #284d78;
+    background-color: rgb(40, 35, 113);
 }
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: #1e3a5f;
+    background-color: rgb(40, 35, 113);
     color: white;
     text-align: center;
     padding: 18px;
